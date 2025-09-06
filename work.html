@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Franze Kenneth Lobos | Portfolio</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+
+  <!-- Navbar -->
+<nav class="navbar fade-in fade-out">
+  <img src="assets/logo.png" alt="Logo" class="logo">
+
+  <!-- Burger -->
+  <div class="menu-toggle" id="menu-toggle">☰</div>
+
+  <!-- Nav links (slide out on mobile) -->
+  <div class="nav-links" id="nav-links">
+    <div class="close-btn" id="close-btn">✖</div>
+    <a href="index.html">HOME</a>
+    <a href="#projects">WORKS | PORTFOLIO</a>
+    <a href="services.html">SERVICES</a>
+    <a href="resume.html">RESUME</a>
+    <a href="contact.html">CONTACT</a>
+  </div>
+</nav>
+
+<section class="work-page-hero work-page-fade">
+  <div class="work-page-hero-text">
+    <h1>WORKS | PORTFOLIO</h1>
+    <p>Explore my latest projects, including web development, design, and graphics work crafted with creativity and precision.</p>
+  </div>
+</section>
+
+
+
+  <!-- Featured Work Section -->
+
+
+  <section class="featured-works fade-in" id="featured-works">
+  <h2 class="section-title">MY WORKS</h2>
+
+  <!-- Toggle Buttons -->
+  <div class="works-toggle">
+    <button class="toggle-btn active" data-category="web-dev">WEB DEVELOPMENT</button>
+    <button class="toggle-btn" data-category="web-design">WEB DESIGN</button>
+    <button class="toggle-btn" data-category="graphics">GRAPHICS DESIGN</button>
+  </div>
+
+  <!-- Projects Container -->
+  <div class="works-container">
+
+    <!-- Web Development Example -->
+    <div class="work-box web-dev">
+      <img src="assets/featured-works/websites/2.png" alt="simosnorkelingofficial" />
+      <h3>SIMO SNORKELING</h3>
+      <p>A responsive Website built with HTML, CSS, and JS.</p>
+      <div class="work-actions">
+        <button class="preview-btn" data-modal="simosnorkelingofficial">PREVIEW</button>
+        <a href="https://simosnorkelingofficial.netlify.app/" target="_blank" class="visit-btn">VISIT SITE</a>
+      </div>
+    </div>
+
+    <div class="work-box web-dev">
+      <img src="assets/featured-works/websites/1.png" alt="traveltours" />
+      <h3>TRAVELTOURS</h3>
+      <p>A responsive Website built with HTML, CSS, and JS.</p>
+      <div class="work-actions">
+        <button class="preview-btn" data-modal="traveltours">PREVIEW</button>
+        <a href="https://traveltoursweb.netlify.app/" target="_blank" class="visit-btn">VISIT SITE</a>
+      </div>
+    </div>
+
+    <div class="work-box web-dev">
+      <img src="assets/featured-works/websites/3.png" alt="pimpify" />
+      <h3>PIMPIFY DATING SITE</h3>
+      <p>A responsive Website built with HTML, CSS, and JS.</p>
+      <div class="work-actions">
+        <button class="preview-btn" data-modal="pimpify">PREVIEW</button>
+        <a href="https://pimpify-frnzgularezdev.netlify.app/" target="_blank" class="visit-btn">VISIT SITE</a>
+      </div>
+    </div>
+
+    <!-- Modal for Web Dev Preview -->
+    <div id="simosnorkelingofficial" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <iframe src="https://simosnorkelingofficial.netlify.app/" frameborder="0"></iframe>
+      </div>
+    </div>
+
+     <!-- Modal for Web Dev Preview -->
+    <div id="traveltours" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <iframe src="https://traveltoursweb.netlify.app/" frameborder="0"></iframe>
+      </div>
+    </div>
+
+    <div id="pimpify" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <iframe src="https://pimpify-frnzgularezdev.netlify.app/" frameborder="0"></iframe>
+      </div>
+    </div>
+
+    <!-- Web Design Example -->
+    <div class="work-box web-design hidden">
+      <img src="assets/featured-works/web-design/traveltours/landing.jpg" alt="traveltourswebdesign" />
+      <h3>Travel Website Template Design</h3>
+      <p>Modern UI design concept for an e-commerce site.</p>
+      <div class="work-actions">
+        <button class="preview-btn" data-modal="traveltourswebdesign">PREVIEW</button>
+      </div>
+    </div>
+
+    <!-- Modal for Web Design (multiple images) -->
+    <div id="traveltourswebdesign" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div class="gallery">
+          <img src="assets/featured-works/web-design/traveltours/landing.jpg" alt="Preview 1" />
+          <img src="assets/featured-works/web-design/traveltours/gallery.png" alt="Preview 2" />
+          <img src="assets/featured-works/web-design/traveltours/packages.jpg" alt="Preview 3" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Web Design Example -->
+    <div class="work-box web-design hidden">
+      <img src="assets/featured-works/web-design/jewelry-store/Jewelry-landing.jpg" alt="jewelry-store" />
+      <h3>Jewelry Store Website Template Design</h3>
+      <p>Modern UI design concept for an e-commerce site.</p>
+      <div class="work-actions">
+        <button class="preview-btn" data-modal="jewelry-store">PREVIEW</button>
+      </div>
+    </div>
+
+    <!-- Modal for Web Design (multiple images) -->
+    <div id="jewelry-store" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div class="gallery">
+          <img src="assets/featured-works/web-design/jewelry-store/Jewelry-landing.jpg" alt="Preview 1" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Graphics Example -->
+    <div class="work-box graphics hidden">
+      <img src="assets/featured-works/graphics/1.jpg" alt="Graphic 1" />
+      <h3>Wild Rift Poster Design</h3>
+      <p>A vibrant poster design for a music festival.</p>
+      <div class="work-actions">
+        <button class="preview-btn" data-modal="wild-rift-modal">PREVIEW</button>
+      </div>
+    </div>
+
+    <div class="work-box graphics hidden">
+      <img src="assets/featured-works/graphics/5.jpg" alt="Graphic 5" />
+      <h3>Photo Manipulation Poster Design</h3>
+      <p>A vibrant poster design for a music festival.</p>
+      <div class="work-actions">
+        <button class="preview-btn" data-modal="photo-manipulation-modal">PREVIEW</button>
+      </div>
+    </div>
+
+    <div class="work-box graphics hidden">
+      <img src="assets/featured-works/graphics/6.jpg" alt="Graphic 6" />
+      <h3>Starbucks Poster Design</h3>
+      <p>A vibrant poster design for a music festival.</p>
+      <div class="work-actions">
+        <button class="preview-btn" data-modal="starbucks-modal">PREVIEW</button>
+      </div>
+    </div>
+
+    <div class="work-box graphics hidden">
+      <img src="assets/featured-works/graphics/2.jpg" alt="Graphic 2" />
+      <h3>Car Poster Design</h3>
+      <p>A vibrant poster design for a music festival.</p>
+      <div class="work-actions">
+        <button class="preview-btn" data-modal="car-poster-modal">PREVIEW</button>
+      </div>
+    </div>
+
+     <div class="work-box graphics hidden">
+      <img src="assets/featured-works/graphics/4.jpg" alt="Graphic 4" />
+      <h3>Starbucks Matcha Poster Design</h3>
+      <p>A vibrant poster design for a music festival.</p>
+      <div class="work-actions">
+        <button class="preview-btn" data-modal="starbucks-matcha-modal">PREVIEW</button>
+      </div>
+    </div>
+
+    <div class="work-box graphics hidden">
+      <img src="assets/featured-works/graphics/8.jpg" alt="Graphic 8" />
+      <h3>Joker Movie Poster Design</h3>
+      <p>A vibrant poster design for a music festival.</p>
+      <div class="work-actions">
+        <button class="preview-btn" data-modal="joker-movie-modal">PREVIEW</button>
+      </div>
+    </div>
+
+    <!-- Modal for Graphics -->
+    <div id="wild-rift-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div class="gallery">
+          <img src="assets/featured-works/graphics/1.jpg" alt="Graphic 1" />
+          <img src="assets/featured-works/graphics/7.jpg" alt="Graphic 1" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for Graphics -->
+    <div id="photo-manipulation-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div class="gallery">
+          <img src="assets/featured-works/graphics/5.jpg" alt="Graphic 5" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for Graphics -->
+    <div id="starbucks-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div class="gallery">
+          <img src="assets/featured-works/graphics/6.jpg" alt="Graphic 6" />
+        </div>
+      </div>
+    </div>
+
+     <!-- Modal for Graphics -->
+    <div id="car-poster-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div class="gallery">
+          <img src="assets/featured-works/graphics/2.jpg" alt="Graphic 2" />
+          <img src="assets/featured-works/graphics/3.jpg" alt="Graphic 3" />
+        </div>
+      </div>
+    </div>
+
+     <!-- Modal for Graphics -->
+    <div id="starbucks-matcha-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div class="gallery">
+          <img src="assets/featured-works/graphics/4.jpg" alt="Graphic 4" />
+        </div>
+      </div>
+    </div>
+
+     <!-- Modal for Graphics -->
+    <div id="joker-movie-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div class="gallery">
+          <img src="assets/featured-works/graphics/8.jpg" alt="Graphic 8" />
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Footer Section -->
+
+<footer class="footer fade-in">
+  <div class="footer-container">
+    <!-- Logo & Description -->
+    <div class="footer-brand">
+      <img src="assets/logo.png" alt="Logo" class="footer-logo">
+      <p>Hi, I'm Franze Kenneth Lobos, a passionate Web Developer, Web & Graphics Designer.</p>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#projects">Work | Portfolio</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="footer-contact">
+      <h4>Contact</h4>
+      <ul>
+        <li>Email: <a href="mailto:franzelobos1@gmail.com">franzelobos1@gmail.com</a></li>
+        <li>Phone: <a href="tel:+639627529428">+63 9627529428</a></li>
+        <li>Location: Cebu City, Philippines</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Footer Bottom -->
+  <div class="footer-bottom">
+    <p>&copy; 2025 Franze Kenneth Gularez Lobos. All rights reserved.</p>
+  </div>
+</footer>
+
+  <script src="script/main.js"></script>
+</body>
+</html>
